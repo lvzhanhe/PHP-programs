@@ -1,10 +1,10 @@
 	<?php 
 			$books = array(
-					 array('姓名','性别','班级','联系电话','QQ','性格爱好'),
-					 array('吕瞻赫','男','科一','13237512189','835122971','计算机'),
-					 array('刘中江','男','正大','15879170174','1092702721','打游戏打代码'),
-					 array('詹国强','男','正大','17770847510','799673077','吹牛'),
-					 array('刘晓静','女','物一','15797704506','2978841617','跑步'),
+					array('Name','Gender','Class','Number','Major','Hobby'),
+					array('Zhanhe','Male','1','5174020323','CS','Movies'),
+					array('Jason','Male','2','5283274903','EE','Shopping'),
+					array('Lucy','Female','2','9832327434','CE','Video Games'),
+					array('Kim','Male','1','5208939432','ME','Basketball')
 				);
 			echo '<table border="1">';
 			$j=0;
