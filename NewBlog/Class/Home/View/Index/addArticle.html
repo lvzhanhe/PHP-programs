@@ -1,0 +1,21 @@
+<extend name="Public:homepage" />
+<block name="style">
+    <link href="__ROOT__/Public/assets/plugins/summernote-0.8.1-dist/dist/summernote.css" rel="stylesheet">
+    <link href="__ROOT__/Public/assets/pages/styles/addArticle.css" rel="stylesheet">
+</block>
+<block name="article">
+	<input type="text" name="title" placeholder="文章标题">
+	<div class="summernote"></div>
+</block>
+<block name="script">
+	<script src="__ROOT__/Public/assets/plugins/summernote-0.8.1-dist/dist/summernote.js"></script>
+	<script src="__ROOT__/Public/assets/plugins/summernote-0.8.1-dist/dist/lang/summernote-zh-CN.js"></script>
+	<script src="__ROOT__/Public/assets/pages/scripts/addArticle.js"></script>
+</block>
+<block name="script-init">
+	<script>
+		$(document).ready(function() {
+		        addArticle.init();
+		});
+	</script>
+</block>

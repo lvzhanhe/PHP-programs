@@ -1,0 +1,126 @@
+<extend name="public:frameset"/>
+<block name="style">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/plugins/zm-rotation/zm-rotation.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/pages/styles/index.css"/>
+</block>
+<block name="body">
+	<div class="in-index">
+		<div class="zm-rotation">
+            <ul class="rotation-list">
+                <li>
+                    <a href="javascript:;">
+                        <img src="__PUBLIC__/assets/global/img/bg/gril.jpg" alt="纸飞机飞呀飞 晚霞真美">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="__PUBLIC__/assets/global/img/bg/autumn.jpg" alt="摘下你的面具 我们交朋友吧">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="__PUBLIC__/assets/global/img/bg/life.jpg" alt='幸运只是努力的另一个代名词'>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="__PUBLIC__/assets/global/img/bg/numbers.jpg" alt="我喜欢夜晚的寂静 一个人真好">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="__PUBLIC__/assets/global/img/bg/autumn.jpg" alt="找到生活中的理想吧">
+                    </a>
+                </li>
+            </ul>         
+        </div>
+        <div class="rotation-focus"></div>
+		<div class="in-header">			
+			<!-- <div class="pull-left">
+				
+			</div>
+			<div class="pull-right">
+					———  {$pageChange['index_show']} 
+			</div> -->
+		</div>
+		<div class="container">	
+			<div class="pull-left">
+			<volist name="article" id="vo">
+				<div class="time-line">
+					<div class="time-line-text">
+						<div class="title">
+							<h2>
+								<a href="{:U('index/detail',array('id'=>$vo['id']))}">{$vo.title}</a>
+							</h2>
+						</div>
+						<div class="content">
+							{$vo.content|mb_substr=###,0,300,'utf-8'}
+						</div>
+						<div class="tips pull-right">
+							<span class="time">
+								<i class="icon-timeline"></i>
+								{$vo.update_time|date='Y年m月d日 H:i',###}
+							</span>
+							<span class="ready">
+								<a href="{:U('index/detail',array('id'=>$vo['id']))}">
+									<i class="icon-timeline"></i>
+									阅读全文
+
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</volist>
+				<div class="page">
+					<ul>
+						{$page}
+					</ul>
+				</div>
+			</div>
+			<div class="pull-right">
+				<div class="time-line">
+					<div class="time-line-text">
+						<div class="title">
+							<h2>近期文章</h2>
+						</div>
+						<div class="content">
+							<ul>
+								<volist name="recently" id="vo">
+									<li>
+										<div class="con-title">
+											<a href="{:U('index/detail',array('id'=>$vo['id']))}">{$vo.title}</a>
+											<span class="pull-right">{$vo.update_time|date='Y.m.d',###}</span>
+										</div>
+									</li>
+								</volist>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="time-line">
+					<div class="time-line-text">
+						<div class="title">
+							<h2>文章归档</h2>
+						</div>
+						<div class="content">
+							<ul class="blog-time-line">
+								<li><a href="{:U('Index/category')}">· 二零一五年 · 八月</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>
+<block name="script">
+    <script type="text/javascript" src="__ROOT__/Public/assets/plugins/zm-rotation/jquery.zmrotation.js"></script> 
+</block>
+<block name="script-init">
+    <script type="text/javascript">
+	    $(document).ready(function(){
+	        $(".zm-rotation").zmRotation({height: 350});
+	    })
+    </script>
+</block>

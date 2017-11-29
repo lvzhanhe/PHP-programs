@@ -1,0 +1,28 @@
+<extend name="public:frameset"/>
+<block name="body">
+	<div class="main">
+		<div class="index-con">
+			<div class="title"><a href="">个人信息{$id}</a></div>
+				<div class="container userinfo-con">
+					<form action="{:U('index/userupload',array('id'=>$id))}" method="post" enctype="multipart/form-data">
+						<table>
+								<tr class="first">
+									<td>登录id</td>
+									<td>用户名</td>
+									<td>密码</td>
+									<td>头像</td>
+									<td>操作</td>
+								</tr>
+								<tr>
+								   <td><input type="text" value="{$userInfo['user_id']}" name="user_id"/></td>
+								   <td><input type="text" value="{$userInfo.name}" name="name"/></td>
+								   <td><input type="text" value="{$userInfo.password}" name="password"/></td>
+								   <td><a href=""  class="img-bac file file-size"><input type="file" name="index_show" id="">更改头像</a></td>
+								   <td><input type="submit" class="" value="提交"></td>
+								</tr>
+						</table>
+					</form>
+				</div>
+		</div>
+	</div>
+</block>

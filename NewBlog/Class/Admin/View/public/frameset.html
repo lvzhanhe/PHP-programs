@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>风筝</title>
+<link href="__PUBLIC__/assets/global/css/admin.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/global/css/wysiwyg-editor.css" />
+</head>
+<body>
+<div class="admin-bg"></div>
+<div class="frameset">
+	<div class="top">
+		<div class="left">
+			<img src="__PUBLIC__/assets/global/img/风筝.PNG" alt="" />
+			<span>风筝</span>
+			<div class="nav">
+				<a href="{:U('/Home/index/index')}">主页</a>
+				<a href="{:U('Index/index')}">博客管理</a>
+				<a href="{:U('Index/addBlog')}">写博客</a>
+				<a href="{:U('Index/pageChange')}">页面修改</a>
+				<a href="{:U('Index/userinfo')}">个人信息</a>
+			</div>
+			
+		</div>
+		<div class="right">
+			<div class="user">
+				<img src="__PUBLIC__/assets/global/img/{$userInfo['avatar_file']}" alt="" />
+				<span>{$userInfo['name']}</span>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+
+		<div class="right">
+				<block name="body"></block>
+		</div>
+	</div>
+	<div class="bottom"></div>
+</div>
+<div class="page-img">
+			<span><a href="">×</a></span>
+			<img src="" alt="" />
+</div>
+</body>
+</html>

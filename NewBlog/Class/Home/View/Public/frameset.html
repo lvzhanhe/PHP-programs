@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>风筝</title>
+<meta property="qc:admins" content="27761440017637452167636716450600075507556351645061516450"/>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Public/assets/plugins/bootstrap/css/bootstrap.css">
+<link href="__PUBLIC__/assets/global/css/home.css" rel="stylesheet" type="text/css"/>
+<block name="style"></block>
+<style>
+	.video{
+		height:0;
+		overflow: hidden;
+	}
+</style>
+</head>
+<body>
+<div class="frameset">
+
+	<div class="top">
+		<div class="pull-left"><a href="{:U('index/index')}">首页</a></div>
+		<div class="nav">
+			<ul>
+				<volist name="all" id="vo">
+					<empty name="vo['children']">
+						<li><a href="{:U('index/category',array('id'=>$vo['id']))}">{$vo['name']}</a></li>
+					<else/>
+						<li>
+							<a href="">{$vo['name']}</a>
+							<ul>
+								<volist name="vo['children']" id="ch">
+									<li><a href="{:U('index/category',array('id'=>$ch['id']))}">{$ch['name']}</a></li>
+								</volist>
+							</ul>
+						</li>
+					</empty>
+				</volist>
+			</ul>
+		</div>
+		<div class="pull-right">
+			<span><a href="__ROOT__/index.php?m=Admin&c=index&a=login">登录/注册</a></span>
+			 <if condition="session('u_id')">
+				<div class="avatar">
+					<img src="__PUBLIC__/assets/global/img/{$avatar_file}" alt="">
+					<ul class="menu">
+						<li>
+							<a href="">
+								<span class="f3">{$name}</span>
+								<br>
+								<span class="f9">正使用"{$login_type_name}"账号登录</span>
+							</a>
+						</li><li>
+							<a href="">私信</a>
+						</li>
+						<li>
+							<a href="{:U('index/articleList')}">个人主页</a>
+						</li><li>
+							<a href="">反馈意见</a>
+						</li>
+						<li>
+							<a href="">设置</a>
+						</li>
+						<li>
+							<a href="{:U('index/logout')}" class="exit">退出</a>
+						</li>
+					</ul>
+									</div> 
+			<else />
+				
+			</if> 
+		</div>
+	</div>
+	<block name="body"></block>
+</div>
+<script src="__ROOT__/Public/assets/plugins/jquery/jquery-2.1.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="__ROOT__/Public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/assets/pages/scripts/public.js"></script>
+<block name="script"></block>
+<block name="script-init"></block>
+<script type="text/javascript">
+    $(document).ready(function(){
+        Public.init();
+    })
+</script>
+
+
+</body>
+</html>

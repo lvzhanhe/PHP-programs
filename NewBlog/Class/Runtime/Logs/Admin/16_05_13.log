@@ -1,0 +1,2657 @@
+[ 2016-05-13T00:00:22+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T00:00:30+08:00 ] ::1 /NewBlog/index.php/Admin/Index/doAdminlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-13T00:00:31+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T00:00:35+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/322.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 9 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 10 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 11 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-05-13T00:00:37+08:00 ] ::1 /NewBlog/index.php/Admin/Index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0390s ]
+SQL: INSERT INTO `blog_user` (`user_id`,`name`,`password`,`avatar_file`) VALUES ('0','','','') [ RunTime:0.0460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T00:00:38+08:00 ] ::1 /NewBlog/index.php/Admin/Index/Index/adminIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T00:03:50+08:00 ] ::1 /NewBlog/index.php/Admin/Index/Index/adminIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\42d7e04c5b56e2c3a7e39c96d8bb0149.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T00:03:57+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T00:04:00+08:00 ] ::1 /NewBlog/index.php/Admin/Index/doAdminlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2016-05-13T00:04:01+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2016-05-13T00:04:04+08:00 ] ::1 /NewBlog/index.php/Admin/index/deleteUser/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: DELETE FROM `blog_user` WHERE `user_id` = 0 [ RunTime:0.0370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-13T00:04:05+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T00:04:08+08:00 ] ::1 /NewBlog/index.php/Admin/index/deleteUser/id/322.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: DELETE FROM `blog_user` WHERE `user_id` = 322 [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-13T00:04:09+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T00:04:11+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 9 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 10 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 11 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-13T00:04:17+08:00 ] ::1 /NewBlog/index.php/Admin/Index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: INSERT INTO `blog_user` (`user_id`,`name`,`password`,`avatar_file`) VALUES ('23','21','21','21') [ RunTime:0.1100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-05-13T00:04:18+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T18:49:56+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T18:50:02+08:00 ] ::1 /NewBlog/index.php/Admin/Index/doAdminlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T18:50:04+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T18:51:33+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 9 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 10 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 11 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T18:51:38+08:00 ] ::1 /NewBlog/index.php/Admin/Index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: INSERT INTO `blog_user` (`user_id`,`name`,`password`,`avatar_file`) VALUES ('123','123','123','') [ RunTime:0.0930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T18:51:40+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T18:51:43+08:00 ] ::1 /NewBlog/index.php/Admin/index/deleteUser/id/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: DELETE FROM `blog_user` WHERE `user_id` = 123 [ RunTime:0.0640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T18:51:45+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T18:53:46+08:00 ] ::1 /NewBlog/index.php/Admin/index/deleteUser/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: DELETE FROM `blog_user` WHERE `user_id` = 23 [ RunTime:0.0590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T18:53:48+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T18:53:49+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 9 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 10 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 11 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T18:53:54+08:00 ] ::1 /NewBlog/index.php/Admin/Index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: INSERT INTO `blog_user` (`user_id`,`name`,`password`,`avatar_file`) VALUES ('12','2','3','') [ RunTime:0.1040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T18:53:55+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T18:54:37+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 9 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 10 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 11 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T18:58:19+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-13T18:58:24+08:00 ] ::1 /NewBlog/index.php/Admin/Index/doAdminlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T18:58:26+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T18:59:55+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T20:00:05+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:00:08+08:00 ] ::1 /NewBlog/index.php/Admin/Index/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `blog_user` WHERE `user_id` = 0 AND `password` = '' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-13T20:00:15+08:00 ] ::1 /NewBlog/index.php/Admin/Index/doAdminlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-13T20:00:16+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T20:00:22+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T20:00:29+08:00 ] ::1 /NewBlog/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T20:00:36+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T20:00:42+08:00 ] ::1 /NewBlog/index.php/Admin/Index/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_user` WHERE `user_id` = 12 AND `password` = '2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:00:43+08:00 ] ::1 /NewBlog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-13T20:00:52+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'newblog.blog_artical_detail' doesn't exist
+
+[ 2016-05-13T20:03:42+08:00 ] ::1 /NewBlog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-13T20:03:44+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-05-13T20:06:37+08:00 ] ::1 /NewBlog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T20:06:41+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\4582c3aad847fdefab9ea89b1a305532.php 第 43 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\4582c3aad847fdefab9ea89b1a305532.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T20:21:10+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-05-13T20:21:20+08:00 ] ::1 /NewBlog/index.php/Admin/Index/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_user` WHERE `user_id` = 12 AND `password` = '2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:21:21+08:00 ] ::1 /NewBlog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-05-13T20:32:35+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T20:32:43+08:00 ] ::1 /NewBlog/index.php/Admin/Index/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_user` WHERE `user_id` = 12 AND `password` = '2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-05-13T20:32:45+08:00 ] ::1 /NewBlog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T20:32:51+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:32:55+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0200s ]
+ERR: Think\Model:editBlog方法不存在！
+
+[ 2016-05-13T20:34:48+08:00 ] ::1 /NewBlog/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T20:34:53+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:34:58+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:35:07+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:35:19+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T20:35:21+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:36:15+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:36:18+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-13T20:36:25+08:00 ] ::1 /NewBlog/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:36:27+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-05-13T20:36:32+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-05-13T20:37:48+08:00 ] ::1 /NewBlog/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:37:51+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:37:56+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: category_id C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:39:25+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T20:39:32+08:00 ] ::1 /NewBlog/index.php/Admin/Index/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_user` WHERE `user_id` = 12 AND `password` = '2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T20:39:33+08:00 ] ::1 /NewBlog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0400s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:40:04+08:00 ] ::1 /NewBlog/index.php/Admin/Index/editBlog/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T20:40:08+08:00 ] ::1 /NewBlog/index.php/Admin/Index/edit/id/108.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: category_id C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 35 行.
+SQL: UPDATE `blog_article_detail` SET `title`='asdw' WHERE `id` = 108 [ RunTime:0.1580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-05-13T20:40:09+08:00 ] ::1 /NewBlog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined index: p C:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\a76b750384d35447461c70528b4d618c.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-05-13T21:11:32+08:00 ] ::1 /NewBlog/index.php/Admin/Index/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\2ad3a247a0d981dd2fb66c85e0f35ef2.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\2ad3a247a0d981dd2fb66c85e0f35ef2.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T21:15:26+08:00 ] ::1 /NewBlog/index.php/Admin/Index/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0950s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\2ad3a247a0d981dd2fb66c85e0f35ef2.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\2ad3a247a0d981dd2fb66c85e0f35ef2.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T21:15:30+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-05-13T21:15:33+08:00 ] ::1 /NewBlog/index.php/Admin/Index/doAdminlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T21:15:35+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-13T21:15:38+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T21:15:46+08:00 ] ::1 /NewBlog/index.php/Admin/Index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0260s ]
+SQL: INSERT INTO `blog_user` (`user_id`,`name`,`password`,`avatar_file`) VALUES ('0','','','') [ RunTime:0.0860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T21:15:48+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-13T21:15:49+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T21:19:25+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-05-13T21:20:10+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-05-13T21:21:16+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T21:23:54+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T21:24:25+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2016-05-13T21:25:08+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T21:25:46+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2016-05-13T21:27:05+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-05-13T21:27:08+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T21:27:23+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T21:27:46+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-05-13T21:27:55+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T21:28:02+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-05-13T21:28:13+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-13T21:28:27+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-05-13T21:28:30+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-05-13T21:28:40+08:00 ] ::1 /NewBlog/index.php/Admin/index/addUsers/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 42 行.
+NOTIC: [8] Undefined index: gender C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 43 行.
+NOTIC: [8] Undefined index: class C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 44 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\7c09ff706687d2388da3af12a1f76899.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-05-13T21:28:45+08:00 ] ::1 /NewBlog/index.php/Admin/Index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0300s ]
+SQL: INSERT INTO `blog_user` (`user_id`,`name`,`password`,`avatar_file`) VALUES ('0','','','') [ RunTime:0.0960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2016-05-13T21:28:47+08:00 ] ::1 /NewBlog/index.php/Admin/Index/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `blog_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 39 行.
+NOTIC: [8] Undefined variable: id C:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\24891fd3d6f03c0630ee96ee13e88281.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+

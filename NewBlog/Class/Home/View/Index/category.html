@@ -1,0 +1,48 @@
+<extend name="public:frameset"/>
+<block name="style">
+	<link rel="stylesheet" href="__ROOT__/Public/assets/global/css/category.css">
+</block>
+<block name="body">
+	<div class="in-category">
+		<div class="ca-container">
+				<div class="c-title">	
+					<h3>
+							<em>最新文章</em>
+			   		</h3>
+			   	</div>
+			   	<div class="article">
+					<ul>
+						<volist name="detail" id="vo">
+						    <li>
+						    	<div class="user">
+						    		<img class="" src="/NewBlog/Public/assets/global/img/2016-04-04/57015e40ce830.jpg" style=""alt="">
+						    	</div>
+						        <div class="pull-right">
+						        	<div class="title">
+						        		<a class="relatea" href="{:U('Index/detail',array('id'=>$vo['id']))}" title="">{$vo.title}</a>
+						        	</div>
+						        	<div class="content">
+						        		{$vo.content|mb_substr=###,0,100,'utf-8'}...
+						        		<a class="read-all">查看全文>><i class="icon-ic_unfold"></i></a>
+						        	</div>
+						        	<footer>
+						        		<span class="pull-left">于龙栋 · 两个月前</span>
+						        		<span class="pull-right">23赞 · 15条评论</span>
+						        	</footer>
+						        </div>
+						    </li>
+					    </volist>
+			    	</ul>
+			    </div>
+		</div>
+		<div class="page">
+			<ul>
+				{$page}
+			</ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script src="__ROOT__/Public/assets/pages/scripts/category.js"></script>
+</block>
+<block name="script-init"></block>

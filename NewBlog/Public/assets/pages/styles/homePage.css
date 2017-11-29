@@ -1,0 +1,242 @@
+@CHARSET "UTF-8";
+.homePage{
+	min-height: 800px;
+	font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.headerInfo{
+	background: rgb(231, 225, 208);
+	width: 100%;
+	height: 115px;
+	padding-top: 51px;
+	box-sizing: content-box;
+}
+.Info-con{
+	width: 1170px;
+	height: 100%;
+	margin:auto;
+}
+.Info-con a:first-child{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 117px;
+}
+.Info-con a:first-child img{
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+
+}
+.Info-con a:nth-child(2){
+	font-size: 25px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.in-login{
+	width:100%;
+	min-height: 850px;
+	margin-top: 50px;
+	display:inline-block;
+	background: url('/Public/assets/global/img/bg/life.jpg');
+}
+.in-login .lo-container{
+	width:65%;
+	margin:auto;
+	margin-bottom:200px;
+	margin-top: 120px;
+	padding-top:20px;
+	overflow:hidden;
+	background:rgba(255,255,255,0.3);
+	box-shadow:1px 1px 4px #333333;
+
+}
+.in-login .lo-container .pull-left{
+	display:block;
+	width:60%;
+	box-sizing: border-box;
+	border-right:1px solid #666;
+	margin:20px 0;
+}
+.in-login .lo-container .title img{
+	display:block;
+	width:80px;
+	height:80px;
+	margin:auto;
+	border-radius:50%;
+}
+.in-login .lo-container .title h2{
+	text-align:center;
+}
+.in-login .lo-container input{
+	display:block;
+	width:400px;
+	height:36px;
+	margin:auto;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-bottom:10px;
+	font-family: "microsoft yahei" simhei sans-serif;
+	padding: 3px;
+	line-height:36px;
+}
+.in-login .lo-container .btn{
+	display:block;
+	width:406px;
+	height:38px;
+	margin:auto;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-bottom:10px;
+	font-family: "microsoft yahei" simhei sans-serif;
+	line-height:36px;
+	font-size:18px;
+
+}
+.in-login .lo-container .pull-right{
+	display:block;
+	width:40%;
+	line-height: 40px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin:15px 0;
+	position:relative;
+}
+.in-login .lo-container .pull-right .content{
+	width: 150px;
+	margin: auto;
+}
+.content p{
+	text-align: left;
+}
+.content p:last-child{
+	text-align: right;
+}
+.in-login .lo-container .pull-right p{
+	font-family: "microsoft yahei" simhei sans-serif;
+}
+.in-login .lo-container .pull-right p:last-child{
+	margin-left:45px;
+}
+.homePage{
+	background-color: rgb(238, 238, 238);
+}
+.container-info{
+	width: 1170px;
+	min-height: 500px;
+	margin: auto;
+	margin-top: 50px;
+	padding-bottom:  50px;
+	overflow: hidden;
+
+}
+aside{
+	width: 240px;
+	min-height: 170px;
+	box-shadow: 0px 1px 2px #bbb;
+	background: #fff;
+	float: left;
+	padding: 25px 22px;
+	box-sizing: border-box;
+}
+aside ul li{
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #ddd;
+	padding-left: 15px;
+}
+aside ul li.active{
+	background: #eee;
+}
+article{
+	width: 900px;
+	min-height: 500px;
+	box-shadow: 0px 1px 2px #bbb;
+	background: #fff;
+	float: right;
+	padding: 25px 22px;
+	box-sizing: border-box;
+}
+article table{
+	width: 100%;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+article table tr{
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #ddd;
+	padding-left: 15px;
+}
+article table tr:first-child{
+	border-top: 1px solid #ddd;
+}
+article table tr td{
+	text-align: center;
+	border-left: 1px solid #ddd;
+}
+article table tr td:last-child{
+	border-right: 1px solid #ddd;
+}
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: none!important;
+}
+
+.checkboxFour {
+	width: 30px;
+	height: 30px;
+	background: #ddd;
+	margin: 5px;
+	border-radius: 100%;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+/**
+ * Create the checkbox button
+ */
+.checkboxFour label {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+	background: #F2F2F2;
+	-webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+/**
+ * Create the checked state
+ */
+.checkboxFour input[type=checkbox]:checked + label {
+	background: #26ca28;
+}
+
+table tr td:not(.bs-checkbox ){
+	text-align: left!important;
+}
+table th{
+	font-weight: normal;
+	font-size: 18px;
+	padding-left: 5px;
+}
+/**
+ * bootstrapfix
+ */
+.fixed-table-body{
+	overflow: visible!important;
+}
+.top{
+	top: 0;
+}

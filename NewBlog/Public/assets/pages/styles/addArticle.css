@@ -1,0 +1,80 @@
+/**
+ * fixbootstrap
+ * 
+ */
+
+.btn-default {
+    color: #555555; 
+    background-color: #DEDEDE;
+    border: none;
+    /* border-color: #ccc; */
+}
+.panel-default > .panel-heading {
+    color: #555555;
+    background-color: #DEDEDE;
+    border-bottom: 1px solid #d9d9d9
+}
+
+/**
+ * fixsummernote
+ */
+.note-popover .popover-content, .panel-heading.note-toolbar {
+    padding-bottom: 0; 
+    margin: 0;
+}
+.note-popover .popover-content>.btn-group, .panel-heading.note-toolbar>.btn-group {
+    margin-top: 0!important; 
+}
+[class^="note-icon-"]:before, [class*=" note-icon-"]:before {
+    color: #555555;
+}
+.btn-default:hover [class^="note-icon-"]:before, [class*=" note-icon-"]:before, 
+.btn-default:focus [class^="note-icon-"]:before, [class*=" note-icon-"]:before,
+.btn-default.focus, 
+.btn-default:active [class^="note-icon-"]:before, [class*=" note-icon-"]:before,
+.btn-default.active, 
+.open > .dropdown-toggle.btn-default {
+    color: #fff;
+    outline: none;
+    text-decoration: inherit;
+}
+.note-btn.active i:before{
+    color: #fff;
+}
+.btn-default:hover , .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: #555555;
+    text-decoration: inherit;
+}
+.note-current-fontname:hover{
+    color: #fff;
+}
+.btn:active{
+    outline-color: #555555;
+}
+.note-editor.note-frame.fullscreen .note-editable {
+    border: 1px solid #DEDEDE;
+    margin: 40px auto;
+    width: 750px;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.25);
+    background-color: white;
+}
+
+
+/**
+ * 
+ */
+article>input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 55px;
+    font-size: 22px;
+    padding: 5px;
+}
+.note-placeholder{
+    font-size: 16px;
+    color: #ccc;
+}
+.note-editing-area{
+    background: #e6e6e6;
+}

@@ -1,0 +1,19 @@
+<extend name="public:frameset"/>
+<block name="body">
+	<div class="main">
+		<div class="index-con">
+			<div class="title"><a href="{:U('Index/index')}">博客管理</a></div>
+			<div class="container change-con">		
+					<h2>{$data.name}</h2>
+					<form action="{:U('Index/upload',array('id'=>$data['id']))}" method="post" enctype="multipart/form-data">
+					  <input type="text" name="index_show" class="edittitle" placeholder="为页面配上签名" />
+					  	<a href="javascript:;" class="file">
+						    <input type="file" name="index_show" id="">点击这里上传背景图片
+						</a>
+
+					  <input type="submit" class="editsubmit change-btn" value="提交">
+					</form>
+			</div>
+		</div>		
+	</div>
+</block>

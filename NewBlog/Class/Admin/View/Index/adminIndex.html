@@ -1,0 +1,78 @@
+<extend name="public:frameset"/>
+<block name="body">
+	<div class="main">
+		<div class="index-con">
+			<div class="title"><a href="">个人信息{$id}</a></div>
+				<div class="container userinfo-con">
+					<form action="{:U('index/userupload',array('id'=>$id))}" method="post" enctype="multipart/form-data">
+						<table>
+								<tr class="first">
+									<td>登录id</td>
+									<td>用户名</td>
+									<td>密码</td>
+									<td>头像</td>
+									<td>操作</td>
+								</tr>
+								<volist name="users" id="u">
+									<tr>
+										<td>{$u.user_id}</td>
+										<td>{$u.name}</td>
+										<td>{$u.password}</td>
+										<td><a href=""  class="img-bac">{$u.avatar_file}</a></td>
+										<td><a href="{:U('index/deleteUser',array('id'=>$u['user_id']))}">删除</a></td>
+									</tr>
+								</volist>
+								<tr>
+									<td><a href="{:U('index/addUsers',array('id'=>$u['user_id']))}">新增用户</a></td>
+								</tr>
+						</table>
+					</form>
+				</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" class="autoinsert" src="__PUBLIC__/assets/plugins/jquery/jquery-2.1.3.min.js"></script> 
+	<script>
+		  $(function(){
+			$(".img-bac").on('click',function(e){
+				e.preventDefault();
+				$(".admin-bg").css({
+					display:"block",
+					height:$(document).height(),
+					width:$(document).width()
+				});
+				var attr=$(this).html();
+				$(".page-img img").attr("src","__PUBLIC__/assets/global/img/"+attr);
+				var $box = $('.page-img');
+		        $box.css({
+		            //设置弹出层距离左边的位置
+		            left: ($("body").width() - $box.width()) / 2 - 20 + "px",
+		            //设置弹出层距离上面的位置
+		            top: ($(window).height() - $box.height()) / 2 + $(window).scrollTop() + "px",
+		            display: "block"
+		        });
+				
+				$(document.body).css({
+				   "overflow-x":"hidden",
+				   "overflow-y":"hidden"
+				}); 
+			});
+			var close = function(){
+					$(".admin-bg").css({
+						display:"none"
+					});
+					$(".page-img").css({
+						display:"none"
+					});
+					$(document.body).css({
+						   "overflow-x":"auto",
+						   "overflow-y":"auto"
+					});
+			}
+			$(".page-img span a").on('click',function(e){
+				e.preventDefault();
+				close();
+			});
+		});
+	</script>
+</block>

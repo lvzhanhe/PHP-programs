@@ -1,0 +1,71 @@
+<extend name="public:frameset"/>
+<block name="body">
+	<div class="main">
+		<div class="index-con">
+			<div class="title"><a href="">页面修改</a></div>
+			<div class="container">
+				<table>
+					<tr class="first">
+						<td>页面</td>
+						<td>签名</td>
+						<td>背景图</td>
+						<td>操作</td>
+					</tr>
+					<volist name="Allpage" id="vo">
+						<tr>
+							<td>{$vo.name}</td>
+							<td>{$vo.index_show}</td>
+							<td><a href=""  class="img-bac">{$vo.img}</a></td>
+							<td><a href="{:U('index/change',array('id'=>$vo['id']))}">编辑</a></td>
+						</tr>
+					</volist>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" class="autoinsert" src="__PUBLIC__/assets/plugins/jquery/jquery-2.1.3.min.js"></script> 
+	<script>
+	$(function(){
+		$(".img-bac").on('click',function(e){
+			e.preventDefault();
+			$(".admin-bg").css({
+				display:"block",
+				height:$(document).height(),
+				width:$(document).width(),
+			});
+			var attr=$(this).html();
+			$(".page-img img").attr("src","__PUBLIC__/assets/global/img/"+attr);
+			var $box = $('.page-img');
+	        $box.css({
+	            //设置弹出层距离左边的位置
+	            left: ($("body").width() - $box.width()) / 2 - 20 + "px",
+	            //设置弹出层距离上面的位置
+	            top: ($(window).height() - $box.height()) / 2 + $(window).scrollTop() + "px",
+	            display: "block"
+	        });
+			
+			$(document.body).css({
+			   "overflow-x":"hidden",
+			   "overflow-y":"hidden"
+			}); 
+		});
+		var close = function(){
+				$(".admin-bg").css({
+					display:"none"
+				});
+				$(".page-img").css({
+					display:"none"
+				});
+				$(document.body).css({
+					   "overflow-x":"auto",
+					   "overflow-y":"auto"
+				});
+		}
+		$(".page-img span a").on('click',function(e){
+			e.preventDefault();
+			close();
+		})
+	});
+			
+	</script>
+</block>

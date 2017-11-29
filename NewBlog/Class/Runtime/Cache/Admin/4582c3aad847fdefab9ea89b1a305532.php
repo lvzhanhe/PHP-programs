@@ -1,0 +1,493 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>风筝</title>
+<link href="/NewBlog/Public/assets/global/css/admin.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/NewBlog/Public/assets/global/css/wysiwyg-editor.css" />
+</head>
+<body>
+<div class="admin-bg"></div>
+<div class="frameset">
+	<div class="top">
+		<div class="left">
+			<img src="/NewBlog/Public/assets/global/img/风筝.PNG" alt="" />
+			<span>风筝</span>
+			<div class="nav">
+				<a href="<?php echo U('/Home/index/index');?>">主页</a>
+				<a href="<?php echo U('Index/index');?>">博客管理</a>
+				<a href="<?php echo U('Index/addBlog');?>">写博客</a>
+				<a href="<?php echo U('Index/pageChange');?>">页面修改</a>
+				<a href="<?php echo U('Index/userinfo');?>">个人信息</a>
+			</div>
+			
+		</div>
+		<div class="right">
+			<div class="user">
+				<img src="/NewBlog/Public/assets/global/img/<?php echo ($userInfo['avatar_file']); ?>" alt="" />
+				<span><?php echo ($userInfo['name']); ?></span>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+
+		<div class="right">
+				
+	<div class="main">
+		<div class="index-con">
+			<div class="title"><a href="<?php echo U('Index/index');?>">博客管理</a></div>
+			<div class="container">
+				<div style="width:860px; margin: 30px auto;">
+					<form action="<?php echo U('Index/edit',array('id'=>$id));?>" method="post">
+					  <input type="text" name="title" class="edittitle" placeholder="" value="<?php echo ($blog['title']); ?>"/>
+					  <textarea id="editor1" name="editor" placeholder="" style="" > 
+					  <?php echo ($blog['content']); ?>
+					  </textarea>
+					  <input type="submit" class="editsubmit" value="提交">
+					</form>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<script type="text/javascript" src="/NewBlog/Public/assets/plugins/jquery/jquery-2.1.3.min.js"></script>
+			<script type="text/javascript" src="/NewBlog/Public/assets/global/js/wysiwyg.js"></script>
+			<script type="text/javascript" src="/NewBlog/Public/assets/global/js/wysiwyg-editor.js"></script>
+			<!-- github.io delivers wrong content-type - but you may want to include FontAwesome in 'wysiwyg-editor.css' -->
+			
+			<script type="text/javascript">
+			$(document).ready(function(){
+			    // Full featured editor
+			    $('#editor1,#editor2,#editor3').each( function(index, element)
+			    {
+			        $(element).wysiwyg({
+			            classes: 'some-more-classes',
+			            position: index == 0 ? 'top-selection' : (index == 1 ? 'bottom' : 'selection'),
+			            buttons: {
+			                // Dummy-HTML-Plugin
+			                dummybutton1: index != 1 ? false : {
+			                    html: $('<input id="submit" type="button" value="bold" />').click(function(){
+			                                // We simply make 'bold'
+			                                if( $(element).wysiwyg('selected-html') )
+			                                    $(element).wysiwyg('bold');
+			                                else
+			                                    alert( 'Please selection some text' );
+			                            }),
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                // Dummy-Button-Plugin
+			                dummybutton2: index != 1 ? false : {
+			                    title: 'Dummy',
+			                    image: '\uf1e7',
+			                    click: function( $button ) {
+			                            alert('Do something');
+			                           },
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                // Smiley-Plugin
+			                smilies: {
+			                    title: 'Smilies',
+			                    image: '\uf118', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    popup: function( $popup, $button, $editor ) {
+			                            var list_smilies = [
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/afraid.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/amorous.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/angel.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/angry.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/bored.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/cold.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/confused.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/cross.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/crying.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/devil.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/disappointed.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/dont-know.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/drool.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/embarrassed.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/excited.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/excruciating.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/eyeroll.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/happy.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/hot.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/hug-left.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/hug-right.png" width="16" height="16" alt="" />',
+			                                    '<br>',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/hungry.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/invincible.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/kiss.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/lying.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/meeting.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/nerdy.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/neutral.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/party.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/pirate.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/pissed-off.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/question.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/sad.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/shame.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/shocked.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/shut-mouth.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/sick.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/silent.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/sleeping.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/sleepy.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/stressed.png" width="16" height="16" alt="" />',
+			                                    '<br>',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/thinking.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/tongue.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/uhm-yeah.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/wink.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/working.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/bathing.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/beer.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/boy.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/camera.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/chilli.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/cigarette.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/cinema.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/coffee.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/girl.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/console.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/grumpy.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/in_love.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/internet.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/lamp.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/mobile.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/mrgreen.png" width="16" height="16" alt="" />',
+			                                    '<br>',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/musical-note.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/music.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/phone.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/plate.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/restroom.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/rose.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/search.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/shopping.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/star.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/studying.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/suit.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/surfing.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/thunder.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/tv.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/typing.png" width="16" height="16" alt="" />',
+			                                    '<img src="/NewBlog/Public/assets/global/img/smiley/writing.png" width="16" height="16" alt="" />'
+			                            ];
+			                            var $smilies = $('<div/>').addClass('wysiwyg-toolbar-smilies')
+			                                                      .attr('unselectable','on');
+			                            $.each( list_smilies, function(index,smiley){
+			                                if( index != 0 )
+			                                    $smilies.append(' ');
+			                                var $image = $(smiley).attr('unselectable','on');
+			                                // Append smiley
+			                                var imagehtml = ' '+$('<div/>').append($image.clone()).html()+' ';
+			                                $image
+			                                    .css({ cursor: 'pointer' })
+			                                    .click(function(event){
+			                                        $(element).wysiwyg('inserthtml',imagehtml);
+			                                        // do not close popup
+			                                        //$(element).wysiwyg('close-popup');
+			                                    })
+			                                    .appendTo( $smilies );
+			                            });
+			                            $smilies.css({ maxWidth: parseInt($editor.width()*0.95)+'px' });
+			                            $popup.append( $smilies );
+			                            // Smilies do not close on click, so force the popup-position to cover the toolbar
+			                            var $toolbar = $button.parents( '.wysiwyg-toolbar' );
+			                            if( ! $toolbar.length ) // selection toolbar?
+			                                return ;
+			                            var left = 0,
+			                                top = 0,
+			                                node = $toolbar.get(0);
+			                            while( node )
+			                            {
+			                                left += node.offsetLeft;
+			                                top += node.offsetTop;
+			                                node = node.offsetParent;
+			                            }
+			                            left += parseInt( ($toolbar.outerWidth() - $popup.outerWidth()) / 2 );
+			                            if( $toolbar.hasClass('wysiwyg-toolbar-top') )
+			                                top -= $popup.height() - parseInt($button.outerHeight() * 1/4);
+			                            else
+			                                top += parseInt($button.outerHeight() * 3/4);
+			                            $popup.css({ left: left + 'px',
+			                                         top: top + 'px'
+			                                       });
+			                            // prevent applying position
+			                            return false;
+			                           },
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: index == 2 ? true : false    // wanted on selection
+			                },
+			                insertimage: {
+			                    title: 'Insert image',
+			                    image: '\uf030', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                insertlink: {
+			                    title: 'Insert link',
+			                    image: '\uf08e' // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                },
+			                // Fontanme + Fontsize Plugin
+			                fontname: index == 1 ? false : {
+			                    title: 'Font',
+			                    image: '\uf031', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    popup: function( $popup, $button, $editor ) {
+			                            var list_fontnames = {
+			                                    // Name : Font
+			                                    'Arial, Helvetica' : 'Arial,Helvetica',
+			                                    'Verdana'          : 'Verdana,Geneva',
+			                                    'Georgia'          : 'Georgia',
+			                                    'Courier New'      : 'Courier New,Courier',
+			                                    'Times New Roman'  : 'Times New Roman,Times'
+			                                };
+			                            var $list = $('<div/>').addClass('wysiwyg-toolbar-list')
+			                                                   .attr('unselectable','on');
+			                            $.each( list_fontnames, function( name, font ){
+			                                var $link = $('<a/>').attr('href','#')
+			                                                    .css( 'font-family', font )
+			                                                    .html( name )
+			                                                    .click(function(event){
+			                                                        $(element).wysiwyg('fontname',font);
+			                                                        $(element).wysiwyg('close-popup');
+			                                                        // prevent link-href-#
+			                                                        event.stopPropagation();
+			                                                        event.preventDefault();
+			                                                        return false;
+			                                                    });
+			                                $list.append( $link );
+			                            });
+			                            $popup.append( $list );
+			                           },
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: index == 0 ? true : false    // wanted on selection
+			                },
+			                fontsize: index == 1 ? false : {
+			                    title: 'Size',
+			                    image: '\uf034', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    popup: function( $popup, $button, $editor ) {
+			                            var list_fontsizes = {
+			                                // Name : Size
+			                                'Huge'    : 7,
+			                                'Larger'  : 6,
+			                                'Large'   : 5,
+			                                'Normal'  : 4,
+			                                'Small'   : 3,
+			                                'Smaller' : 2,
+			                                'Tiny'    : 1
+			                            };
+			                            var $list = $('<div/>').addClass('wysiwyg-toolbar-list')
+			                                                   .attr('unselectable','on');
+			                            $.each( list_fontsizes, function( name, size ){
+			                                var $link = $('<a/>').attr('href','#')
+			                                                    .css( 'font-size', (8 + (size * 3)) + 'px' )
+			                                                    .html( name )
+			                                                    .click(function(event){
+			                                                        $(element).wysiwyg('fontsize',size);
+			                                                        $(element).wysiwyg('close-popup');
+			                                                        // prevent link-href-#
+			                                                        event.stopPropagation();
+			                                                        event.preventDefault();
+			                                                        return false;
+			                                                    });
+			                                $list.append( $link );
+			                            });
+			                            $popup.append( $list );
+			                           }
+			                    //showstatic: true,    // wanted on the toolbar
+			                    //showselection: true    // wanted on selection
+			                },
+			                bold: {
+			                    title: 'Bold (Ctrl+B)',
+			                    image: '\uf032', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    hotkey: 'b'
+			                },
+			                italic: {
+			                    title: 'Italic (Ctrl+I)',
+			                    image: '\uf033', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    hotkey: 'i'
+			                },
+			                underline: {
+			                    title: 'Underline (Ctrl+U)',
+			                    image: '\uf0cd', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    hotkey: 'u'
+			                },
+			                strikethrough: {
+			                    title: 'Strikethrough (Ctrl+S)',
+			                    image: '\uf0cc', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    hotkey: 's'
+			                },
+			                forecolor: {
+			                    title: 'Text color',
+			                    image: '\uf1fc' // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                },
+			                highlight: {
+			                    title: 'Background color',
+			                    image: '\uf043' // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                },
+			                alignleft: index != 0 ? false : {
+			                    title: 'Left',
+			                    image: '\uf036', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                aligncenter: index != 0 ? false : {
+			                    title: 'Center',
+			                    image: '\uf037', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                alignright: index != 0 ? false : {
+			                    title: 'Right',
+			                    image: '\uf038', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                alignjustify: index != 0 ? false : {
+			                    title: 'Justify',
+			                    image: '\uf039', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                subscript: index == 1 ? false : {
+			                    title: 'Subscript',
+			                    image: '\uf12c', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: true    // wanted on selection
+			                },
+			                superscript: index == 1 ? false : {
+			                    title: 'Superscript',
+			                    image: '\uf12b', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: true    // wanted on selection
+			                },
+			                indent: index != 0 ? false : {
+			                    title: 'Indent',
+			                    image: '\uf03c', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                outdent: index != 0 ? false : {
+			                    title: 'Outdent',
+			                    image: '\uf03b', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                orderedList: index != 0 ? false : {
+			                    title: 'Ordered list',
+			                    image: '\uf0cb', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                unorderedList: index != 0 ? false : {
+			                    title: 'Unordered list',
+			                    image: '\uf0ca', // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                    //showstatic: true,    // wanted on the toolbar
+			                    showselection: false    // wanted on selection
+			                },
+			                removeformat: {
+			                    title: 'Remove format',
+			                    image: '\uf12d' // <img src="path/to/image.png" width="16" height="16" alt="" />
+			                }
+			            },
+			            // Submit-Button
+			            submit: {
+			                title: 'Submit',
+			                image: '\uf00c' // <img src="path/to/image.png" width="16" height="16" alt="" />
+			            },
+			            // Other properties
+			            dropfileclick: 'Drop image or click',
+			            placeholderUrl: 'www.example.com',
+			            maxImageSize: [600,200]
+			            /*
+			            onImageUpload: function( insert_image ) {
+			                            // Used to insert an image without XMLHttpRequest 2
+			                            // A bit tricky, because we can't easily upload a file
+			                            // via '$.ajax()' on a legacy browser.
+			                            // You have to submit the form into to a '<iframe/>' element.
+			                            // Call 'insert_image(url)' as soon as the file is online
+			                            // and the URL is available.
+			                            // Best way to do: http://malsup.com/jquery/form/
+			                            // For example:
+			                            //$(this).parents('form')
+			                            //       .attr('action','/path/to/file')
+			                            //       .attr('method','POST')
+			                            //       .attr('enctype','multipart/form-data')
+			                            //       .ajaxSubmit({
+			                            //          success: function(xhrdata,textStatus,jqXHR){
+			                            //            var image_url = xhrdata;
+			                            //            console.log( 'URL: ' + image_url );
+			                            //            insert_image( image_url );
+			                            //          }
+			                            //        });
+			                        },
+			            onKeyEnter: function() {
+			                            return false; // swallow enter
+			                        }
+			            */
+			        })
+			        .change(function(){
+			            if( typeof console != 'undefined' )
+			                console.log( 'change' );
+			        })
+			        .focus(function(){
+			            if( typeof console != 'undefined' )
+			                console.log( 'focus' );
+			        })
+			        .blur(function(){
+			            if( typeof console != 'undefined' )
+			                console.log( 'blur' );
+			        });
+			    });
+			
+			    // Demo-Buttons
+			    $('#editor3-bold').click(function(){
+			        $('#editor3').wysiwyg('bold');
+			        return false;
+			    });
+			    $('#editor3-red').click(function(){
+			        $('#editor3').wysiwyg('highlight','#ff0000');
+			        return false;
+			    });
+			    $('#editor3-sethtml').click(function(){
+			        $('#editor3').wysiwyg('html', 'This is a the html text');
+			        return false;
+			    });
+			    $('#editor3-inserthtml').click(function(){
+			        $('#editor3').wysiwyg('inserthtml', 'This is some text');
+			        return false;
+			    });
+			
+			    // Raw editor
+			    var option = {
+			        element: $('#editor0').get(0),
+			        onkeypress: function( code, character, shiftKey, altKey, ctrlKey, metaKey ) {
+			                        if( typeof console != 'undefined' )
+			                            console.log( 'RAW: '+character+' key pressed' );
+			                    },
+			        onselection: function( collapsed, rect, nodes, rightclick ) {
+			                        if( typeof console != 'undefined' && rect )
+			                            console.log( 'RAW: selection rect('+rect.left+','+rect.top+','+rect.width+','+rect.height+'), '+nodes.length+' nodes' );
+			                    },
+			        onplaceholder: function( visible ) {
+			                        if( typeof console != 'undefined' )
+			                            console.log( 'RAW: placeholder ' + (visible ? 'visible' : 'hidden') );
+			                    }
+			    };
+			    var wysiwygeditor = wysiwyg( option );
+			    //wysiwygeditor.setHTML( '<html>' );
+			});
+			</script>
+
+		</div>
+	</div>
+	<div class="bottom"></div>
+</div>
+<div class="page-img">
+			<span><a href="">×</a></span>
+			<img src="" alt="" />
+</div>
+</body>
+</html>

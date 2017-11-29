@@ -1,0 +1,225 @@
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,
+body{
+	font-family:"Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.top{
+	transition: top .5s;
+	position: fixed;
+	height: 61px;
+	left:0;
+	top:0;
+	width:100%;
+	background: #fff;
+	border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.top a{
+	display: block;
+	height: 60px;
+	float: left;
+}
+.top>a img{
+	height: 10px;
+	width: 40px;
+	margin: 20px 0 0 50px;
+}
+.top .nav{
+	width: 650px;
+	height: 100%;
+	margin: auto;
+}
+.nav a{
+	display: inline-block;
+	height: 100%;
+	padding-top: 10px;
+}
+.nav a img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.nav span{
+	line-height: 60px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.tit-img{
+	width: 100%;
+	background-size: cover!important;
+	height: 400px;
+	margin-top: 60px;
+}
+.tit-img .title{
+	width: 650px;
+	margin: auto;
+	font-size: 30px;
+    color: #fff;
+    line-height: 1.3;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 80%;
+    right: 0;
+    font-weight: 700;
+}
+.gizle {top: -62px;}
+.sabit {top:0;z-index: 9999;}
+.in-detail{
+	width:100%;
+	display:inline-block;
+	min-height:700px;
+	margin-bottom: 200px;
+}
+.in-detail .in-header{
+	font-family: "microsoft yahei" simhei sans-serif;
+}
+.in-detail .container{
+	width: 650px;
+	margin:auto;
+	min-height:600px;
+	box-sizing: border-box;
+	padding: 0;
+
+}
+.in-detail .container .title{
+	font-size: 30px;
+    color: #333;
+    line-height: 1.3;
+    position: relative;
+    font-weight: 700;
+}
+.in-detail .container .stuff{
+	margin-top: 20px;
+    color: #666;
+    font-size: 13px;
+}
+.in-detail .container .stuff span {
+    display: inline-block;
+    margin-right: 20px;
+}
+.in-detail .container .content{
+	font-family: "microsoft yahei" simhei sans-serif;
+	color:#444;
+	line-height: 55px;
+	font-size: 18px;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.in-detail .container .content:before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: #eee;
+    display: block;
+    margin: 30px auto 40px;
+}
+.in-detail .container .content span{
+	float:right;
+	margin-right:8px;
+}
+.in-detail .page>a{
+	line-height:30px;
+	width:80px;
+	background: #dd5862;
+	margin-right:20px;
+	text-align:center;
+	font-family: "microsoft yahei" simhei sans-serif;
+	border-radius:4px;
+	padding: 5px 10px;
+	color:#333;
+}
+.in-detail .page>span{
+	line-height:30px;
+	height:30px;
+	width:80px;
+	background: #f2f2f2;
+	margin-right:20px;
+	text-align:center;
+	font-family: "microsoft yahei" simhei sans-serif;
+	border-radius:4px;
+	padding: 5px 10px;
+	color:#333;
+}
+
+.comment{
+	
+}
+.comment-box .box-header {
+    padding: 42px 0 0;
+    position: relative;
+}
+.block-title {
+    line-height: 22px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 0 32px;
+    font-size: 16px;
+}
+.block-title>span {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    padding-right: 16px;
+}
+.block-title {
+    line-height: 22px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 0 32px;
+    font-size: 16px;
+}
+.block-title:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    top: 11px;
+    background: #f0f0f0;
+}
+.box-comment{
+	overflow: hidden;
+}
+.box-comment ul{
+	width: 580px;
+}
+.box-comment li{
+	padding: 20px 0;
+	overflow: hidden;
+}
+.box-comment li .comment-hd a{
+	color: #333;
+    font-weight: 700;
+    font-size: 16px;
+}
+.box-comment .comment-content {
+	width: 580px;
+	float: right;
+    min-height: 22px;
+    margin: 13px 0;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+.box-comment a.pull-left {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.box-comment img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.box-comment input{
+	width: 580px;
+	float: right;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 0 15px;
+	font-size: 18px;
+}
